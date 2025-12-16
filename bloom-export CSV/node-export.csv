@@ -1,0 +1,26 @@
+"~id","~labels","nome","plano","id","ano","titulo","ano_inicio"
+"4:ff924133-fba4-411f-bb58-04f4216aeeb0:0","Usuario","Ana Silva","Premium",1,,,
+"4:ff924133-fba4-411f-bb58-04f4216aeeb0:1","Usuario","Carlos Lima","Padrão",2,,,
+"4:ff924133-fba4-411f-bb58-04f4216aeeb0:2","Genero","Ficção Científica",,1,,,
+"4:ff924133-fba4-411f-bb58-04f4216aeeb0:3","Genero","Ação",,2,,,
+"4:ff924133-fba4-411f-bb58-04f4216aeeb0:4","Genero","Drama",,3,,,
+"4:ff924133-fba4-411f-bb58-04f4216aeeb0:5","Genero","Suspense",,4,,,
+"4:ff924133-fba4-411f-bb58-04f4216aeeb0:6","Genero","Fantasia",,5,,,
+"4:ff924133-fba4-411f-bb58-04f4216aeeb0:7","Ator","Leonardo DiCaprio",,10,,,
+"4:ff924133-fba4-411f-bb58-04f4216aeeb0:8","Ator","Keanu Reeves",,11,,,
+"4:ff924133-fba4-411f-bb58-04f4216aeeb0:9","Ator","Matthew McConaughey",,12,,,
+"4:ff924133-fba4-411f-bb58-04f4216aeeb0:10","Ator","Millie Bobby Brown",,13,,,
+"4:ff924133-fba4-411f-bb58-04f4216aeeb0:11","Ator","Bryan Cranston",,14,,,
+"4:ff924133-fba4-411f-bb58-04f4216aeeb0:12","Diretor","Christopher Nolan",,20,,,
+"4:ff924133-fba4-411f-bb58-04f4216aeeb0:13","Diretor","Lana Wachowski",,21,,,
+"4:ff924133-fba4-411f-bb58-04f4216aeeb0:14","Diretor","Vince Gilligan",,22,,,
+"4:ff924133-fba4-411f-bb58-04f4216aeeb0:15","Filme",,,100,2010,"Inception",
+"4:ff924133-fba4-411f-bb58-04f4216aeeb0:16","Filme",,,101,1999,"The Matrix",
+"4:ff924133-fba4-411f-bb58-04f4216aeeb0:17","Filme",,,102,2014,"Interstellar",
+"4:ff924133-fba4-411f-bb58-04f4216aeeb0:18","Filme",,,103,2008,"The Dark Knight",
+"4:ff924133-fba4-411f-bb58-04f4216aeeb0:19","Filme",,,104,2009,"Avatar",
+"4:ff924133-fba4-411f-bb58-04f4216aeeb0:20","Serie",,,200,,"Dark",2017
+"4:ff924133-fba4-411f-bb58-04f4216aeeb0:21","Serie",,,201,,"Stranger Things",2016
+"4:ff924133-fba4-411f-bb58-04f4216aeeb0:22","Serie",,,202,,"Breaking Bad",2008
+"4:ff924133-fba4-411f-bb58-04f4216aeeb0:23","Serie",,,203,,"The Witcher",2019
+"4:ff924133-fba4-411f-bb58-04f4216aeeb0:24","Serie",,,204,,"The Mandalorian",2019

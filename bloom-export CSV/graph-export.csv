@@ -1,0 +1,40 @@
+"~start_node_id","~start_node_labels","~start_node_property_nome","~start_node_property_plano","~start_node_property_id","~relationship_type","~relationship_property_avaliou_nota","~end_node_id","~end_node_labels","~end_node_property_ano","~end_node_property_titulo","~end_node_property_id","~end_node_property_ano_inicio","~start_node_property_ano","~start_node_property_titulo","~end_node_property_nome","~start_node_property_ano_inicio"
+"4:ff924133-fba4-411f-bb58-04f4216aeeb0:0","Usuario","Ana Silva","Premium",1,"ASSISTIU",5,"4:ff924133-fba4-411f-bb58-04f4216aeeb0:15","Filme",2010,"Inception",100,,,,,
+"4:ff924133-fba4-411f-bb58-04f4216aeeb0:0","Usuario","Ana Silva","Premium",1,"ASSISTIU",4,"4:ff924133-fba4-411f-bb58-04f4216aeeb0:17","Filme",2014,"Interstellar",102,,,,,
+"4:ff924133-fba4-411f-bb58-04f4216aeeb0:0","Usuario","Ana Silva","Premium",1,"ASSISTIU",5,"4:ff924133-fba4-411f-bb58-04f4216aeeb0:20","Serie",,"Dark",200,2017,,,,
+"4:ff924133-fba4-411f-bb58-04f4216aeeb0:0","Usuario","Ana Silva","Premium",1,"ASSISTIU",4,"4:ff924133-fba4-411f-bb58-04f4216aeeb0:21","Serie",,"Stranger Things",201,2016,,,,
+"4:ff924133-fba4-411f-bb58-04f4216aeeb0:1","Usuario","Carlos Lima","Padrão",2,"ASSISTIU",5,"4:ff924133-fba4-411f-bb58-04f4216aeeb0:16","Filme",1999,"The Matrix",101,,,,,
+"4:ff924133-fba4-411f-bb58-04f4216aeeb0:1","Usuario","Carlos Lima","Padrão",2,"ASSISTIU",4,"4:ff924133-fba4-411f-bb58-04f4216aeeb0:18","Filme",2008,"The Dark Knight",103,,,,,
+"4:ff924133-fba4-411f-bb58-04f4216aeeb0:1","Usuario","Carlos Lima","Padrão",2,"ASSISTIU",5,"4:ff924133-fba4-411f-bb58-04f4216aeeb0:22","Serie",,"Breaking Bad",202,2008,,,,
+"4:ff924133-fba4-411f-bb58-04f4216aeeb0:1","Usuario","Carlos Lima","Padrão",2,"ASSISTIU",4,"4:ff924133-fba4-411f-bb58-04f4216aeeb0:24","Serie",,"The Mandalorian",204,2019,,,,
+"4:ff924133-fba4-411f-bb58-04f4216aeeb0:7","Ator","Leonardo DiCaprio",,10,"ATUOU",,"4:ff924133-fba4-411f-bb58-04f4216aeeb0:15","Filme",2010,"Inception",100,,,,,
+"4:ff924133-fba4-411f-bb58-04f4216aeeb0:7","Ator","Leonardo DiCaprio",,10,"ATUOU",,"4:ff924133-fba4-411f-bb58-04f4216aeeb0:18","Filme",2008,"The Dark Knight",103,,,,,
+"4:ff924133-fba4-411f-bb58-04f4216aeeb0:8","Ator","Keanu Reeves",,11,"ATUOU",,"4:ff924133-fba4-411f-bb58-04f4216aeeb0:16","Filme",1999,"The Matrix",101,,,,,
+"4:ff924133-fba4-411f-bb58-04f4216aeeb0:9","Ator","Matthew McConaughey",,12,"ATUOU",,"4:ff924133-fba4-411f-bb58-04f4216aeeb0:17","Filme",2014,"Interstellar",102,,,,,
+"4:ff924133-fba4-411f-bb58-04f4216aeeb0:10","Ator","Millie Bobby Brown",,13,"ATUOU",,"4:ff924133-fba4-411f-bb58-04f4216aeeb0:21","Serie",,"Stranger Things",201,2016,,,,
+"4:ff924133-fba4-411f-bb58-04f4216aeeb0:11","Ator","Bryan Cranston",,14,"ATUOU",,"4:ff924133-fba4-411f-bb58-04f4216aeeb0:22","Serie",,"Breaking Bad",202,2008,,,,
+"4:ff924133-fba4-411f-bb58-04f4216aeeb0:12","Diretor","Christopher Nolan",,20,"DIRIGIU",,"4:ff924133-fba4-411f-bb58-04f4216aeeb0:15","Filme",2010,"Inception",100,,,,,
+"4:ff924133-fba4-411f-bb58-04f4216aeeb0:12","Diretor","Christopher Nolan",,20,"DIRIGIU",,"4:ff924133-fba4-411f-bb58-04f4216aeeb0:17","Filme",2014,"Interstellar",102,,,,,
+"4:ff924133-fba4-411f-bb58-04f4216aeeb0:12","Diretor","Christopher Nolan",,20,"DIRIGIU",,"4:ff924133-fba4-411f-bb58-04f4216aeeb0:18","Filme",2008,"The Dark Knight",103,,,,,
+"4:ff924133-fba4-411f-bb58-04f4216aeeb0:13","Diretor","Lana Wachowski",,21,"DIRIGIU",,"4:ff924133-fba4-411f-bb58-04f4216aeeb0:16","Filme",1999,"The Matrix",101,,,,,
+"4:ff924133-fba4-411f-bb58-04f4216aeeb0:14","Diretor","Vince Gilligan",,22,"DIRIGIU",,"4:ff924133-fba4-411f-bb58-04f4216aeeb0:22","Serie",,"Breaking Bad",202,2008,,,,
+"4:ff924133-fba4-411f-bb58-04f4216aeeb0:15","Filme",,,100,"TEM_GENERO",,"4:ff924133-fba4-411f-bb58-04f4216aeeb0:2","Genero",,,1,,2010,"Inception","Ficção Científica",
+"4:ff924133-fba4-411f-bb58-04f4216aeeb0:15","Filme",,,100,"TEM_GENERO",,"4:ff924133-fba4-411f-bb58-04f4216aeeb0:5","Genero",,,4,,2010,"Inception","Suspense",
+"4:ff924133-fba4-411f-bb58-04f4216aeeb0:16","Filme",,,101,"TEM_GENERO",,"4:ff924133-fba4-411f-bb58-04f4216aeeb0:2","Genero",,,1,,1999,"The Matrix","Ficção Científica",
+"4:ff924133-fba4-411f-bb58-04f4216aeeb0:16","Filme",,,101,"TEM_GENERO",,"4:ff924133-fba4-411f-bb58-04f4216aeeb0:3","Genero",,,2,,1999,"The Matrix","Ação",
+"4:ff924133-fba4-411f-bb58-04f4216aeeb0:17","Filme",,,102,"TEM_GENERO",,"4:ff924133-fba4-411f-bb58-04f4216aeeb0:2","Genero",,,1,,2014,"Interstellar","Ficção Científica",
+"4:ff924133-fba4-411f-bb58-04f4216aeeb0:17","Filme",,,102,"TEM_GENERO",,"4:ff924133-fba4-411f-bb58-04f4216aeeb0:4","Genero",,,3,,2014,"Interstellar","Drama",
+"4:ff924133-fba4-411f-bb58-04f4216aeeb0:18","Filme",,,103,"TEM_GENERO",,"4:ff924133-fba4-411f-bb58-04f4216aeeb0:3","Genero",,,2,,2008,"The Dark Knight","Ação",
+"4:ff924133-fba4-411f-bb58-04f4216aeeb0:18","Filme",,,103,"TEM_GENERO",,"4:ff924133-fba4-411f-bb58-04f4216aeeb0:5","Genero",,,4,,2008,"The Dark Knight","Suspense",
+"4:ff924133-fba4-411f-bb58-04f4216aeeb0:19","Filme",,,104,"TEM_GENERO",,"4:ff924133-fba4-411f-bb58-04f4216aeeb0:2","Genero",,,1,,2009,"Avatar","Ficção Científica",
+"4:ff924133-fba4-411f-bb58-04f4216aeeb0:19","Filme",,,104,"TEM_GENERO",,"4:ff924133-fba4-411f-bb58-04f4216aeeb0:6","Genero",,,5,,2009,"Avatar","Fantasia",
+"4:ff924133-fba4-411f-bb58-04f4216aeeb0:20","Serie",,,200,"TEM_GENERO",,"4:ff924133-fba4-411f-bb58-04f4216aeeb0:2","Genero",,,1,,,"Dark","Ficção Científica",2017
+"4:ff924133-fba4-411f-bb58-04f4216aeeb0:20","Serie",,,200,"TEM_GENERO",,"4:ff924133-fba4-411f-bb58-04f4216aeeb0:5","Genero",,,4,,,"Dark","Suspense",2017
+"4:ff924133-fba4-411f-bb58-04f4216aeeb0:21","Serie",,,201,"TEM_GENERO",,"4:ff924133-fba4-411f-bb58-04f4216aeeb0:2","Genero",,,1,,,"Stranger Things","Ficção Científica",2016
+"4:ff924133-fba4-411f-bb58-04f4216aeeb0:21","Serie",,,201,"TEM_GENERO",,"4:ff924133-fba4-411f-bb58-04f4216aeeb0:6","Genero",,,5,,,"Stranger Things","Fantasia",2016
+"4:ff924133-fba4-411f-bb58-04f4216aeeb0:22","Serie",,,202,"TEM_GENERO",,"4:ff924133-fba4-411f-bb58-04f4216aeeb0:4","Genero",,,3,,,"Breaking Bad","Drama",2008
+"4:ff924133-fba4-411f-bb58-04f4216aeeb0:22","Serie",,,202,"TEM_GENERO",,"4:ff924133-fba4-411f-bb58-04f4216aeeb0:5","Genero",,,4,,,"Breaking Bad","Suspense",2008
+"4:ff924133-fba4-411f-bb58-04f4216aeeb0:23","Serie",,,203,"TEM_GENERO",,"4:ff924133-fba4-411f-bb58-04f4216aeeb0:4","Genero",,,3,,,"The Witcher","Drama",2019
+"4:ff924133-fba4-411f-bb58-04f4216aeeb0:23","Serie",,,203,"TEM_GENERO",,"4:ff924133-fba4-411f-bb58-04f4216aeeb0:6","Genero",,,5,,,"The Witcher","Fantasia",2019
+"4:ff924133-fba4-411f-bb58-04f4216aeeb0:24","Serie",,,204,"TEM_GENERO",,"4:ff924133-fba4-411f-bb58-04f4216aeeb0:2","Genero",,,1,,,"The Mandalorian","Ficção Científica",2019
+"4:ff924133-fba4-411f-bb58-04f4216aeeb0:24","Serie",,,204,"TEM_GENERO",,"4:ff924133-fba4-411f-bb58-04f4216aeeb0:3","Genero",,,2,,,"The Mandalorian","Ação",2019
