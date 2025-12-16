@@ -1,0 +1,83 @@
+MERGE (u1:Usuario {id: 1})
+SET u1.nome = "Ana Silva", u1.plano = "Premium"
+MERGE (u2:Usuario {id: 2})
+SET u2.nome = "Carlos Lima", u2.plano = "Padrão"
+
+MERGE (g1:Genero {id: 1}) SET g1.nome = "Ficção Científica"
+MERGE (g2:Genero {id: 2}) SET g2.nome = "Ação"
+MERGE (g3:Genero {id: 3}) SET g3.nome = "Drama"
+MERGE (g4:Genero {id: 4}) SET g4.nome = "Suspense"
+MERGE (g5:Genero {id: 5}) SET g5.nome = "Fantasia"
+
+MERGE (a1:Ator {id: 10}) SET a1.nome = "Leonardo DiCaprio"
+MERGE (a2:Ator {id: 11}) SET a2.nome = "Keanu Reeves"
+MERGE (a3:Ator {id: 12}) SET a3.nome = "Matthew McConaughey"
+MERGE (a4:Ator {id: 13}) SET a4.nome = "Millie Bobby Brown"
+MERGE (a5:Ator {id: 14}) SET a5.nome = "Bryan Cranston"
+
+MERGE (d1:Diretor {id: 20}) SET d1.nome = "Christopher Nolan"
+MERGE (d2:Diretor {id: 21}) SET d2.nome = "Lana Wachowski"
+MERGE (d3:Diretor {id: 22}) SET d3.nome = "Vince Gilligan"
+
+MERGE (f1:Filme {id: 100}) SET f1.titulo = "Inception", f1.ano = 2010
+MERGE (f2:Filme {id: 101}) SET f2.titulo = "The Matrix", f2.ano = 1999
+MERGE (f3:Filme {id: 102}) SET f3.titulo = "Interstellar", f3.ano = 2014
+MERGE (f4:Filme {id: 103}) SET f4.titulo = "The Dark Knight", f4.ano = 2008
+MERGE (f5:Filme {id: 104}) SET f5.titulo = "Avatar", f5.ano = 2009
+
+MERGE (s1:Serie {id: 200}) SET s1.titulo = "Dark", s1.ano_inicio = 2017
+MERGE (s2:Serie {id: 201}) SET s2.titulo = "Stranger Things", s2.ano_inicio = 2016
+MERGE (s3:Serie {id: 202}) SET s3.titulo = "Breaking Bad", s3.ano_inicio = 2008
+MERGE (s4:Serie {id: 203}) SET s4.titulo = "The Witcher", s4.ano_inicio = 2019
+MERGE (s5:Serie {id: 204}) SET s5.titulo = "The Mandalorian", s5.ano_inicio = 2019
+
+WITH u1,u2,
+     g1,g2,g3,g4,g5,
+     a1,a2,a3,a4,a5,
+     d1,d2,d3,
+     f1,f2,f3,f4,f5,
+     s1,s2,s3,s4,s5
+
+MERGE (f1)-[:TEM_GENERO]->(g1)
+MERGE (f1)-[:TEM_GENERO]->(g4)
+MERGE (f2)-[:TEM_GENERO]->(g1)
+MERGE (f2)-[:TEM_GENERO]->(g2)
+MERGE (f3)-[:TEM_GENERO]->(g1)
+MERGE (f3)-[:TEM_GENERO]->(g3)
+MERGE (f4)-[:TEM_GENERO]->(g2)
+MERGE (f4)-[:TEM_GENERO]->(g4)
+MERGE (f5)-[:TEM_GENERO]->(g1)
+MERGE (f5)-[:TEM_GENERO]->(g5)
+
+MERGE (s1)-[:TEM_GENERO]->(g1)
+MERGE (s1)-[:TEM_GENERO]->(g4)
+MERGE (s2)-[:TEM_GENERO]->(g1)
+MERGE (s2)-[:TEM_GENERO]->(g5)
+MERGE (s3)-[:TEM_GENERO]->(g3)
+MERGE (s3)-[:TEM_GENERO]->(g4)
+MERGE (s4)-[:TEM_GENERO]->(g5)
+MERGE (s4)-[:TEM_GENERO]->(g3)
+MERGE (s5)-[:TEM_GENERO]->(g1)
+MERGE (s5)-[:TEM_GENERO]->(g2)
+
+MERGE (a1)-[:ATUOU]->(f1)
+MERGE (a2)-[:ATUOU]->(f2)
+MERGE (a3)-[:ATUOU]->(f3)
+MERGE (a1)-[:ATUOU]->(f4)
+MERGE (a4)-[:ATUOU]->(s2)
+MERGE (a5)-[:ATUOU]->(s3)
+
+MERGE (d1)-[:DIRIGIU]->(f1)
+MERGE (d1)-[:DIRIGIU]->(f3)
+MERGE (d1)-[:DIRIGIU]->(f4)
+MERGE (d2)-[:DIRIGIU]->(f2)
+MERGE (d3)-[:DIRIGIU]->(s3)
+
+MERGE (u1)-[:ASSISTIU {avaliou_nota: 5}]->(f1)
+MERGE (u1)-[:ASSISTIU {avaliou_nota: 4}]->(f3)
+MERGE (u1)-[:ASSISTIU {avaliou_nota: 5}]->(s1)
+MERGE (u1)-[:ASSISTIU {avaliou_nota: 4}]->(s2)
+MERGE (u2)-[:ASSISTIU {avaliou_nota: 5}]->(f2)
+MERGE (u2)-[:ASSISTIU {avaliou_nota: 4}]->(f4)
+MERGE (u2)-[:ASSISTIU {avaliou_nota: 5}]->(s3)
+MERGE (u2)-[:ASSISTIU {avaliou_nota: 4}]->(s5);
